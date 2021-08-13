@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const PrimerComponente = () => {
     return (
-        <div>
-            Hola Mundo
-        </div>
+        <Fragment>
+            <h1>Hola Mundo</h1>
+            <p> Mi primera App</p>
+        </Fragment>
     )
 }
 
