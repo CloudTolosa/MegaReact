@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PrimerComponente = (props) => {
+const PrimerComponente = ({saludo = "Hola Beto"}) => {
 
     return (
 
         <>
-            <h1>{props.saludo}</h1>
+            <h1>{saludo}</h1>
             <p> Mi primera App</p>
         </>
     )
