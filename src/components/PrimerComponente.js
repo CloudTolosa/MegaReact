@@ -1,19 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const PrimerComponente = ({saludo}) => {
+const PrimerComponente = ({saludo, subtitulo}) => {
 
     return (
 
         <>
             <h1>{saludo}</h1>
-            <p> Mi primera App</p>
+            <p>{subtitulo}</p>
         </>
     )
 }
 
 PrimerComponente.propTypes = {
     saludo : PropTypes.isRequired
+}
+
+PrimerComponente.defaultProps = {
+    subtitulo : " "
 }
 
 export default PrimerComponente
