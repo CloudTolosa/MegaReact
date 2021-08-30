@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import PrimerComponente from './components/PrimerComponente';
+import Contador from './components/Contador';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <PrimerComponente saludo={ 123 } />
+        <Contador value={ 123 } />
       </header>
     </div>
   );
