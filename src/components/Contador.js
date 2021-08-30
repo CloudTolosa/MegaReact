@@ -6,6 +6,9 @@ const Contador = ({value}) => {
         <>
             <h1>Contador Componente</h1>
             <h2>{value}</h2>
+            <button onClick={() => {console.log('+1')}}>+1</button>
+            {/*Hay diferentes eventos sinteticos en react para mas
+            informacion ir a https://es.reactjs.org/docs/events.html*/ }
         </>
     )
 }
