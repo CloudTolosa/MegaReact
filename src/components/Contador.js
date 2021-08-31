@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PropTypes from 'prop-types'
 
 const Contador = ({value}) => {
 
-    //handleAdd 
+    //Un hook es una funcion, son faciles de reconocer porque suelen empezar por use
+    const [state, setstate] = useState(initialState)
+
+    //handleAdd
     const handleAdd = (e) => {
         console.log(e);
     }
